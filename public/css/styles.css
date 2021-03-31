@@ -6,6 +6,7 @@
     transition: all .5s ease-in-out;
     padding-top: 1.563rem;
     padding-bottom: 1.563rem;
+    letter-spacing: 4px;
   }
   
  .navbar-b.navbar-reduce {
@@ -194,5 +195,106 @@ padding-bottom: 15px;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
   opacity: 0.9;
+}
+
+/*======================================
+//--//-->   INTRO
+====================================== */
+
+.intro {
+  height: 100vh;
+  position: relative;
+  color: rgb(29, 233, 240);
+}
+
+.intro .intro-content {
+  text-align: center;
+  position: absolute;
+}
+
+.intro .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+}
+.intro .intro-title {
+  color: rgb(29, 233, 240);
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.intro .intro-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.intro .text-slider-items {
+  display: none;
+}
+
+.intro-single {
+  height: 350px;
+}
+
+.intro-single .intro-content {
+  margin-top: 30px;
+}
+.intro-single .intro-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.intro-single .breadcrumb {
+  background-color: #fff;
+  color:rgb(29, 233, 240);
+}
+
+.intro-single .breadcrumb .breadcrumb-item:before {
+  color: #000;
+}
+
+.intro-single .breadcrumb .breadcrumb-item.active {
+  color: #000;
+}
+
+.intro-single .breadcrumb a {
+  color: #000;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+} 
+
+/*======================================
+//--//-->   FOOTER
+======================================*/
+
+footer {
+  text-align: center;
+  color: #000;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+footer .copyright {
+  margin-bottom: .3rem;
 }
 
